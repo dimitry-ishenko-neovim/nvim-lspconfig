@@ -1,2 +1,1 @@
 doc lsp lua plugin usr/share/nvim-lspconfig
-debian/clangd.lua debian/pyright.lua etc/skel/.config/nvim/plugin
