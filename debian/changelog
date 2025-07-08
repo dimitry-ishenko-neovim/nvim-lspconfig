@@ -1,5 +1,81 @@
-nvim-lspconfig (2.3.0-1) UNRELEASED; urgency=medium
+nvim-lspconfig (2.3.0-1) unstable; urgency=medium
 
-  * Initial release.
+  [ Dimitry Ishenko ]
+  * Enable clangd
+  * Add Debian packaging
 
- -- Dimitry Ishenko <dimitry.ishenko@gmail.com>  Mon, 07 Jul 2025 18:58:53 -0400
+  [ Markus Koller ]
+  * fix: support :LspRestart without arguments #3895
+  * fix: support :LspStart/LspStop without arguments #3890
+
+  [ qvalentin ]
+  * fix(helm_ls,yamlls): support custom filetype for helm-ls #3893
+
+  [ github-actions[bot] ]
+  * docs: update configs.md skip-checks: true
+
+  [ Damien Pontifex ]
+  * feat(bicep): add `bicep-params` filetype #3886
+
+  [ github-actions[bot] ]
+  * docs: update configs.md skip-checks: true
+
+  [ someoneinjd ]
+  * fix(clangd): set offset_encoding correctly #3887
+
+  [ ndlrfz ]
+  * feat(tailwind): add "postcss.config.js" root marker #3884
+
+  [ Dave Honneffer ]
+  * fix(eslint): LspEslintFixAll is async, writes file without applied
+    fixes #3876
+
+  [ Justin M. Keyes ]
+  * ci: allows "workspace/executeCommand" in eslint config
+
+  [ Steve Vermeulen ]
+  * fix: enable :LspLog command in Nvim 0.11.2 #3883
+
+  [ github-actions[bot] ]
+  * docs: update configs.md skip-checks: true
+
+  [ qvalentin ]
+  * feat(helm_ls,yamlls): support custom filetype for helm-ls #3881
+
+  [ github-actions[bot] ]
+  * docs: update configs.md skip-checks: true
+
+  [ Yuto Maruta ]
+  * feat: cspell language server #3877
+
+  [ github-actions[bot] ]
+  * docs: update configs.md skip-checks: true
+
+  [ Eduardo Juliao ]
+  * fix(emmet): align the two emmet configs #3878
+
+  [ github-actions[bot] ]
+  * docs: update configs.md skip-checks: true
+
+  [ Varac ]
+  * feat: tofu-ls language server #3874
+
+  [ github-actions[bot] ]
+  * docs: update configs.md skip-checks: true
+
+  [ Piotr Magiera ]
+  * fix(cairo_ls): update command #3873
+
+  [ github-actions[bot] ]
+  * docs: update configs.md skip-checks: true
+
+  [ Alex Efros ]
+  * feat(ast_grep): support multiple workspaces #3866
+
+  [ github-actions[bot] ]
+  * docs: update configs.md skip-checks: true
+
+  [ Sola ]
+  * fix(fish_lsp): various improvements #3869
+
+ -- Dimitry Ishenko <dimitry.ishenko@gmail.com>  Tue, 08 Jul 2025 01:36:12 -0400
