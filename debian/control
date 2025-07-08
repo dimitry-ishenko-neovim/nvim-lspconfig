@@ -1,0 +1,22 @@
+Source: nvim-lspconfig
+Section: editors
+Priority: optional
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+ dh-vim-addon,
+Standards-Version: 4.6.2
+Homepage: https://github.com/neovim/nvim-lspconfig
+Vcs-Browser: https://github.com/dimitry-ishenko-neovim/nvim-lspconfig
+Vcs-Git: https://github.com/dimitry-ishenko-neovim/nvim-lspconfig.git
+
+Package: nvim-lspconfig
+Architecture: all
+Depends:
+ ${misc:Depends},
+ neovim (>= 0.10),
+Description: Quickstart configs for nvim LSP
+ nvim-lspconfig is a "data only" repo, providing basic, default nvim LSP client
+ configurations for various LSP servers. Use `:help lspconfig-all` to view all
+ configs.

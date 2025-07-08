@@ -1,0 +1,11 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Source: https://github.com/neovim/nvim-lspconfig
+Upstream-Name: nvim-lspconfig
+
+Files: *
+Copyright: Neovim contributors
+License: Apache-2
+
+Files: debian/*
+Copyright: 2025, Dimitry Ishenko <dimitry.ishenko@gmail.com>
+License: GPL-2+

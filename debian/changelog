@@ -1,0 +1,5 @@
+nvim-lspconfig (2.3.0-1) UNRELEASED; urgency=medium
+
+  * Initial release.
+
+ -- Dimitry Ishenko <dimitry.ishenko@gmail.com>  Mon, 07 Jul 2025 18:58:53 -0400
