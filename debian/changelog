@@ -1,3 +1,9 @@
+nvim-lspconfig (2.3.0-3) unstable; urgency=medium
+
+  * Let users install custom configs
+
+ -- Dimitry Ishenko <dimitry.ishenko@gmail.com>  Tue, 08 Jul 2025 01:41:12 -0400
+
 nvim-lspconfig (2.3.0-2) unstable; urgency=medium
 
   * Enable pyright
